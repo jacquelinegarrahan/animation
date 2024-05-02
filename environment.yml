@@ -1,0 +1,11 @@
+# conda env create -f environment.yml
+name: animation
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pydantic
+  - pandas
+  - matplotlib
+  - Pillow
+  - jupyterlab
